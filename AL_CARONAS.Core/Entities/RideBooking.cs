@@ -10,8 +10,8 @@ namespace AL_CARONAS.Core.Entities
     public class RideBooking
     {
         public int RideBookingId {  get; private set; }
-        public int PassagerId { get; private set; }
-        public int TripId { get; private set; }
-        public BookingStatus Status { get; private set; }
+        public int PassagerId { get;  set; }
+        public int TripId { get;  set; }
+        public BookingStatus Status { get; set; }
     }
 }

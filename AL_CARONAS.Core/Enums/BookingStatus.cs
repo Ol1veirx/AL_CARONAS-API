@@ -8,9 +8,9 @@ namespace AL_CARONAS.Core.Enums
 {
     public enum BookingStatus
     {
-        Pending,
-        Approved,
-        Rejected,
-        Completed
+        Pending = 1,
+        Approved = 2,
+        Rejected = 3,
+        Completed = 4
     }
 }

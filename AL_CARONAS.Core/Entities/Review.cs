@@ -8,11 +8,11 @@ namespace AL_CARONAS.Core.Entities
 {
     public class Review
     {
-        public int ReviewId { get; private set; }
-        public int UserId { get; private set; }
-        public int TargerUserId { get; private set; }
-        public int Rating { get; private set; }
-        public string? Comment { get; private set; }
-        public DateTime Date {  get; private set; }
+        public int ReviewId { get; set; }
+        public int UserId { get; set; }
+        public int TargerUserId { get; set; }
+        public int Rating { get; set; }
+        public string? Comment { get; set; }
+        public DateTime Date {  get; set; } = DateTime.Now;
     }
 }
